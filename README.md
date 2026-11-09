@@ -2,5 +2,5 @@
 Patrick Watson
 
 ```
-python csv_practice.py
+python3 csv_practice.py
 ```
