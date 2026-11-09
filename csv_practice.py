@@ -112,5 +112,8 @@ print(f"Log entries so far: {entries}")
 
 
 
-#Reflection 1: []
-#Reflection 2: []
+#Reflection 1: You've now completed a full ETL pipeline: read a CSV, transform the data, write a new CSV. How does this compare to doing the same task in Excel? What can Python do that Excel can't do easily, and vice versa?
+#Python makes the ETL process repeatable and easier to automate, while Excel is more interactive and easier to inspect visually.
+#Reflection 2: Exercise 8 showed you append mode. Think of a real business process that would benefit from an append-mode log file — describe it and explain why append mode is the right tool.
+#A business could log each daily sales total to track revenue over time. Append mode adds each new entry without overwriting the previous entries.
+
